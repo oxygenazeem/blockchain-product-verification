@@ -59,8 +59,8 @@ async function register() {
 
         // Generate QR with verification link
         qrcodeDiv.innerHTML = "";
-        const url = `${window.location.origin}?product=${encodeURIComponent(id)}`;
-        new QRCode(qrcodeDiv, url);
+        const url = "https://oxygenazeem.github.io/blockchain-product-verification/?product=" + encodeURIComponent(id);
+		new QRCode(qrcodeDiv, url);
 
     } catch (err) {
         console.error(err);
@@ -101,3 +101,4 @@ window.onload = () => {
         verifyProduct(productId);
     }
 };
+
