@@ -24,4 +24,5 @@
 
 # Notice:
 
+## - The program will not function without the MetaMask extension on a computer or the dApps built-in browser within the MetaMask for mobile.
 ## - The use of real cryptocurrencies is unfavored, as this is a simple simulation. Please use a testnet or a fake crypto network. (Sepolia is the best as it has been tested on)
